@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime & Japan</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #ffe4f5, #ffc0cb);
+            color: #4a004e;
+        }
+
+        header {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(255, 111, 163, 0.8);
+            color: white;
+            text-align: center;
+            padding: 1rem 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 1rem;
+            background-color: #ff5e99;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 1.3rem;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        nav a:hover {
+            background: #ff80b3;
+        }
+
+        .hero {
+            display: grid;
+            place-items: center;
+            background: url('https://constructive-voices.com/wp-content/uploads/2024/04/Japan-Sacred-Natural-Sites-and-Biodiversity.jpg') no-repeat center center/cover;
+            height: 500px;
+            position: relative;
+        }
+
+        .hero h2 {
+            font-size: 2.8rem;
+            color: white;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 1rem 2rem;
+            border-radius: 8px;
+        }
+
+        .info {
+            display: flex;
+            gap: 2rem;
+            margin: 2rem auto;
+            max-width: 1000px;
+            padding: 0 1rem;
+        }
+
+        .info div {
+            flex: 1;
+            background: rgba(255, 111, 163, 0.1);
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .info h2 {
+            color: #b30059;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .gallery {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        .gallery h2 {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+            color: #b30059;
+        }
+
+        .gallery .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #ff5e99;
+            color: white;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anime & Japan</h1>
+    </header>
+
+    <nav>
+        <a href="#anime">Anime</a>
+        <a href="#japan">Japan</a>
+        <a href="#gallery">Gallery</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Explore Anime Adventures & Japanese Traditions</h2>
+    </div>
+
+    <div class="info">
+        <div id="anime">
+            <h2>About Anime</h2>
+            <p>Anime is a form of art that captures the imagination and tells stories through unique styles, vibrant colors, and emotional depth. From action-packed series to heartwarming dramas, anime offers something for everyone.</p>
+        </div>
+
+        <div id="japan">
+            <h2>Discover Japan</h2>
+            <p>Japan is a country of rich traditions, breathtaking landscapes, and innovative culture. From cherry blossoms to futuristic cities, it beautifully blends history with modernity.</p>
+        </div>
+    </div>
+
+    <section class="gallery" id="gallery">
+        <h2>Gallery</h2>
+        <div class= 'grid'>
+            <img src= 'https://www.exploreworldwide.eu/medialibraries/explore/blog-images/2019%2008%20august/japan%20country%20spotlight/shutterstock_776445706.jpg?ext=.jpg&width=620&format=webp&quality=80&v=201907171032' alt="Cherry Blossoms">
+            <img src="https://www.howto-osaka.com/en/wp/wp-content/uploads/2023/03/koyasan-4.jpg" alt="Japanese Temple">
+            <img src='https://c4.wallpaperflare.com/wallpaper/124/579/788/naruto-akatsuki-hd-wallpaper-wallpaper-preview.jpg' alt="Anime Character">
+            <img src="https://www.kikkoman.eu/fileadmin/_processed_/0/f/csm_1025-recipe-page-Spicy-tuna-and-salmon-rolls_desktop_b6172c0072.jpg" alt="Traditional Sushi">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Anime & Japan | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
