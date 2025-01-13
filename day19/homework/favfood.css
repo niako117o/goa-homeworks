@@ -1,0 +1,30 @@
+body {
+    background-color: red;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 1rem 0;
+    color: #ffeb3b;
+}
+
+section {
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 800px;
+    background: #fff;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #3f51b5;
+}
+
+
