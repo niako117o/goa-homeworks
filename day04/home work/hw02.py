@@ -1,3 +1,3 @@
 age = int(input("enter youre age: ") )
-years = 14
+years = 10
 print(age + years)
