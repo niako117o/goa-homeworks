@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal-Oriented Academy • GOA </title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #00ff22, #000000);
+            color: #00ff15;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            width: 80%;
+        }
+        .card {
+            background: #121212;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 255, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card h2 {
+            color: #0f0;
+        }
+
+        header {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(21, 255, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 1rem 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 1rem;
+            background-color: #000000;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 1.3rem;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+           
+        }
+
+        nav a:hover {
+            background: #000000;
+        }
+
+        .hero {
+            display: grid;
+            place-items: center;
+            background: url('https://scontent.ftbs5-2.fna.fbcdn.net/v/t39.30808-6/408864179_342479481868687_2724919989645877908_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=BxjlIievD14Q7kNvgEKNyRz&_nc_oc=AdicXOmSY3evYo3TTiAGioTb_vaR6QHLJBOK4Eody6Lr_VVvvHe832Zw_BbLM7ojF7o&_nc_zt=23&_nc_ht=scontent.ftbs5-2.fna&_nc_gid=AwYBanpoqLAGB5C_u-Z3IRK&oh=00_AYCgl-hkUo5oyJAWFl2C66Q8p_32iQj9WhSqbqHO8K2sxQ&oe=67C93013') no-repeat center center/cover;
+            height: 500px;
+            position: relative;
+        }
+
+        .hero h2 {
+            font-size: 2.8rem;
+            color: white;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 1rem 2rem;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#game development">game development</a>
+        <a href="#AI and algorithm">AI and algorithm</a>
+    </nav>
+    <div class="hero">
+        <h2>Goal-Oriented Academy • GOA </h2>
+    </div>
+    </div>
+<div class="container">
+    <div class="card">
+        <h2>About Game Development</h2>
+        <p>Video game development (sometimes shortened to gamedev) is the process of creating a video game. It is a multidisciplinary practice, involving programming, design, art, audio, user interface, and writing. Each of those may be made up of more specialized skills; art includes 3D modeling of objects, character modeling, animation, visual effects, and so on. Development is supported by project management, production, and quality assurance. Teams can be many hundreds of people, a small group, or even a single person.</p>
+    </div>
+    <div class="card">
+        <h2>AI and Algorithm</h2>
+        <p>I algorithms provide instructions for AI technology to think and react to data in ways that are intuitive to how we process information.
+
+            Artificial intelligence aims to create computers that can process information and make decisions without humans providing instructions. The AI algorithms represent all of the instructions needed to respond to the data presented to the machine. </p>
+    </div>
+</div>
+
+    
+</body>
+</html>
