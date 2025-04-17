@@ -6,11 +6,11 @@ choice = input("როგორ გსურთ სახელის შეც�
 
 # მომხმარებლის არჩევის მიხედვით სახელის ცვლილება
 if choice == "upper":
-    print("თქვენი სახელი გადიდებულად: ", name.upper())
+    print(name.upper())
 elif choice == "lower":
-    print("თქვენი სახელი დაპატარავებულად: ", name.lower())
+    print(name.lower())
 elif choice == "capitalize":
-    print("თქვენი სახელი პირველი ასოს გადიდებით: ", name.capitalize())
+    print(name.capitalize())
 else:
     print("მოცემული არჩევანი არასწორია.")
 
