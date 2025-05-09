@@ -47,5 +47,3 @@ print(new_name)
 name4 = 'niako lamazi gogoa'
 new_name = name.swapcase()
 print(new_name)
-
-
