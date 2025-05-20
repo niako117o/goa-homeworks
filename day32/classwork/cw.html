@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>document</title>
+  <style>
+    .responsive-div {
+      width: 800px;
+      background-color: lightblue;
+    }
+
+    @media (max-width: 800px) {
+      .responsive-div {
+        width: 100%;
+      }
+    }
+    .images {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .images img {
+      width: 300px;
+      height: 300px;
+    }
+
+    @media (max-width: 500px) {
+      .images img {
+        width: 50%;
+      }
+    }
+    .styled-text {
+      font-size: 25px;
+    }
+
+    .styled-text p {
+      font-size: 40px;
+      text-decoration: line-through overline;
+      text-decoration-color: rgb(255, 67, 208);
+      text-decoration-style: wavy;
+      text-transform: uppercase;
+      text-shadow: 5px 10px 5px rgb(255, 2, 166);
+    }
+  </style>
+</head>
+<body>
+  <div class="responsive-div"></div>
+  <div class="images">
+    <img src="https://i.pinimg.com/736x/6c/30/04/6c3004798d506c03a78a05f34e869e7c.jpg" >
+    <img src="https://i.pinimg.com/736x/cf/3e/af/cf3eaf5355854aba11a0f885acf5d4fd.jpg" >
+  </div>
+  <div class="styled-text">
+    <p>I LOVE CATSSS ❤️</p>
+  </div>
+
+</body>
+</html>
