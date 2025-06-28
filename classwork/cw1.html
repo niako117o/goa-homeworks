@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loading Bar</title>
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+
+    .loading-text {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .loading {
+      width: 300px;
+      height: 20px;
+      border: 2px solid #00c9a7;
+      border-radius: 20px;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .fill {
+      height: 100%;
+      width: 0%;
+      background-color: #00c9a7;
+      border-radius: 20px;
+      animation-duration: 3s;
+      animation-name: load;
+    }
+
+    @keyframes load {
+      0% {
+        width: 0%;
+      }
+      50% {
+        width: 60%;
+      }
+      100% {
+        width: 0%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="loading-text">Loading....</div>
+  <div class="loading">
+    <div class="fill"></div>
+  </div>
+
+</body>
+</html>
