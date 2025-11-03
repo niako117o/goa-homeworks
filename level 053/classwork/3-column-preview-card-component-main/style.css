@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.child1 {
+    background-color:  hsl(31, 77%, 52%);
+    width: 290px;
+    height: 450px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+#p1 {
+    position: relative;
+    bottom: 30px;
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+}
+
+#info1 {
+    position: relative;
+    bottom: 40px;
+    color:  hsla(0, 0%, 100%, 0.75);
+    width: 180px;
+    margin-left: 30px;
+
+}
+
+#p2 {
+    position: relative;
+    bottom: 30px;
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+}
+
+#info2 {
+    position: relative;
+    bottom: 40px;
+    color:  hsla(0, 0%, 100%, 0.75);
+    width: 180px;
+    margin-left: 30px;
+}
+
+#p3 {
+    position: relative;
+    bottom: 30px;
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+}
+
+#info3 {
+    position: relative;
+    bottom: 40px;
+    color:  hsla(0, 0%, 100%, 0.75);
+    width: 180px;
+    margin-left: 30px;
+}
+
+.child2 {
+    background-color: hsl(184, 100%, 22%);
+    width: 290px;
+    height: 450px;
+}
+
+.child3 {
+    background-color:  hsl(179, 100%, 13%);
+    width: 290px;
+    height: 450px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+}
+#butt1 {
+    border-radius: 19px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    position: relative;
+    top: 20px;
+    padding: 5px;
+    margin-left: 30px;
+    background-color: white;
+    color:   hsl(31, 77%, 52%);
+}
+#butt2 {
+    border-radius: 19px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+    padding: 5px;
+    position: relative;
+    top: 20px;
+    margin-left: 30px;
+}
+#butt3 {
+    border-radius: 19px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color:  hsl(179, 100%, 13%);
+    padding: 5px;
+    position: relative;
+    top: 20px;
+    margin-left: 30px;
+}
+
+#img1 {
+    padding: 40px;
+}
+
+#img2 {
+    padding: 40px;
+}
+
+#img3 {
+    padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

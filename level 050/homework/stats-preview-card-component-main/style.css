@@ -1,0 +1,104 @@
+body {
+    background-color: hsl(235, 48%, 5%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent {
+    background-color: hsl(244, 37%, 16%);
+    width: 800px;
+    height: 400px;
+}
+img {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 400px;
+    bottom: 197px;
+    
+
+}
+h1 {
+    color: white;
+    width: 300px;
+    padding: 40px;
+    padding-bottom: 40px;
+}
+#span1 {
+    color: hsl(277, 64%, 61%);
+}
+.parent p {
+    width: 300px;
+    position: relative;
+    bottom: 460px;
+    left: 40px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+#h4  {
+    position: relative;
+    bottom: 420px;
+    left: 50px;
+    color: white;
+    width: 40px;
+    font-size:30px ;
+    
+}
+#hh1 {
+    font-size: 10px;
+    position: relative;
+    bottom: 460px;
+    left: 48px;
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+
+#h5 {
+    color: white;
+    position: relative;
+    bottom: 548px;
+    left: 180px;
+    width: 40px;
+    font-size:30px ;
+
+}
+
+#hh2 {
+    font-size: 10px;
+    position: relative;
+    bottom: 587px;
+    left: 175px;
+    color:  hsla(0, 0%, 100%, 0.75);
+
+}
+
+
+#h6 {
+    color: white;
+    position: relative;
+    bottom: 672px;
+    left: 290px;
+    width: 40px;
+    font-size:30px ;
+}
+
+#hh3{
+    font-size: 10px;
+    position: relative;
+    bottom: 710px;
+    left: 300px;
+    color:  hsla(0, 0%, 100%, 0.75);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
